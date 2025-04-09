@@ -11,3 +11,5 @@ root.render(
     <App />
   </StrictMode>,
 )
+
+// logica di base di react
