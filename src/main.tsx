@@ -2,6 +2,7 @@ import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client' // Importa il pacchetto react-dom/client --> funzione che permette di creare un root
 import './index.css'
 import App from './App.tsx'
+import Pippo from './components/MyButton.tsx' // Importa il componente Pippo
 
 const elementoDOMDiMounting = document.getElementById('root'); // Se non esiste l'elemento DOM, mostra un errore
 const root = createRoot(elementoDOMDiMounting!); // Crea un root React e lo collega all'elemento DOM di mounting
